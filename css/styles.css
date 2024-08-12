@@ -1,8 +1,7 @@
 /* ---Header box-shadow--- */
 .header-box {
   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
-              0px 1px 1px rgba(46, 47, 66, 0.16),
-              0px 1px 6px rgba(46, 47, 66, 0.08);
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 /* ---First Menu Item--- */
@@ -14,7 +13,7 @@
 
 /* ---After pseudo-element for the first menu item--- */
 .menu-item:first-child .link::after {
-  content: '';
+  content: "";
   width: 100%;
   position: absolute;
   left: 0;
@@ -31,8 +30,11 @@
 
 /* ---Hero Section Background--- */
 .title-hero {
-  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-                    url('../images/img-name.jpeg');
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url("/images/people-office.jpg");
   max-width: 1440px;
   background-repeat: no-repeat;
   background-position: center;
@@ -99,8 +101,7 @@
 /* ---Portfolio Items Hover--- */
 .portfolio-item:hover {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-              0px 1px 1px rgba(46, 47, 66, 0.16),
-              0px 2px 1px rgba(46, 47, 66, 0.08);
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .portfolio-item:hover .text-images {
